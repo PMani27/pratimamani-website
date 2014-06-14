@@ -4,19 +4,48 @@
    Author's custom styles
    ========================================================================== */
 
+.home-background-image{
+	background: url(../images/home_bg.jpg) center center no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+
+	position: fixed;
+	top :0;
+	left:0;
+	right:0;
+	bottom:0;
+
+	z-index: -1;
+}
 
 
+.no-bg{
+	background: none;
+}
+.no-color{
+	color: none;
+}
+
+.highlight{
+	color: #0fc !important;
+}
+
+.dark-gradient{
+	background: black;
+	background: rgba(0,0,0,0.5);
+}
 
 
+.inverted{
+	color: white;
+}
 
-
-
-
-
-
-
-
-
+.homepage-content .title{
+	font-family: 'Lato', sans-serif;
+	font-size: 6em;
+	font-weight: 300;
+}
 
 
 
