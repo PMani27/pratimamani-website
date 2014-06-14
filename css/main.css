@@ -49,12 +49,22 @@
 .inverted{
 	color: white !important;
 }
+
+.xtra-heavy-top-padding{
+	padding:100px !important;
+}
 .heavy-top-padding{
 	padding-top: 40px;
 }
 
 .light-bottom-padding{
 	padding-bottom: 10px;
+}
+.low-padding{
+	padding-top: 30px !important;
+}
+.medium-padding{
+	padding-top: 100px !important;
 }
 .homepage-content{
 	margin-top:220px;
@@ -155,6 +165,63 @@ ul#emperor-nav li.active a {
     width: 100%;
     padding-bottom: 10px;
 }
+.resumeblock {
+    margin-left: 20px;
+}
+.resumeblock h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.4em;
+    line-height: 1.2;
+}
+.visible-xs.dates-mobile {
+    font-weight: 300;
+    font-size: .8em;
+}
+.resumeblock p {
+    margin: 0;
+}
+.resumetitle {
+    color: #0fc;
+}
+.first {
+    color: rgba(0, 0, 0, 1);
+}
+.resumetitle, .first {
+    font-weight: 900;
+}
+.third {
+    color: rgba(0, 0, 0, 0.4);
+}
+.responsibilities {
+    display: none;
+}
+@media(min-width:768px) {
+	.resumeblock {
+	    margin-left: 0;
+	}
+	.resumeblock h1 {
+	    line-height: 1.2;
+	    font-size: 2.4em;
+	}
+	.responsibilities {
+	    display: inline;
+	    font-weight: 300;
+	    font-size: .5em;
+	}
+}
+@media(min-width:1200px) {
+	.resumeblock h1 {
+	    line-height: 1.2;
+	    font-size: 3.2em;
+	}
+	.responsibilities {
+	    font-weight: 300;
+	    font-size: .4em;
+	}
+}
+
 hr {
     height: 5px;
     background: #4e4e4e;
@@ -182,11 +249,11 @@ ul#emperor-nav li a {
     margin-right: 12px;
 }
 .content-project {
-    padding-top: 160px;
+	padding-top: 140px;
     margin-bottom: -160px;
 }
 .content-project.ill, .content-project.data {
-    padding-top: 135px;
+    padding-top: 140px;
     margin-bottom: -135px;
 }
 .hidden-xs.desktop-project-name {
@@ -223,7 +290,7 @@ ul#emperor-nav li a {
     float: right;
     padding-right: 20px;
 }
-}@media(min-width:992px) {
+@media(min-width:992px) {
     .navbar-fixed-top a.navbar-brand {
     font-size: 2.3em;
 }
@@ -237,14 +304,16 @@ ul#emperor-nav li a {
     line-height: 1.6;
 }
 .content-project {
-    padding-top: 170px;
+	padding-top: 140px;
     margin-bottom: -170px;
 }
 .content-project.ill, .content-project.data {
     padding-top: 140px;
     margin-bottom: -140px;
 }
-}@media(min-width:1200px) {
+
+}
+@media(min-width:1200px) {
     .navbar-fixed-top a.navbar-brand {
     font-size: 2.5em;
 }
@@ -258,7 +327,7 @@ ul#emperor-nav li a {
     line-height: 1.6;
 }
 .content-project {
-    padding-top: 140px;
+	padding-top: 140px;
     margin-bottom: -140px;
 }
 .hidden-xs.slider {
@@ -270,4 +339,4 @@ ul#emperor-nav li a {
 .handler {
     margin-top: -300px;
 }
-}}
+}
