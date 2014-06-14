@@ -34,11 +34,26 @@
 .dark-gradient{
 	background: black;
 	background: rgba(0,0,0,0.5);
+	border:none;
 }
 
-
+.dark-gradient li a{
+	color : white;
+	font-family: 'Lato',sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
 .inverted{
-	color: white;
+	color: white !important;
+}
+.heavy-top-padding{
+	padding-top: 40px;
+}
+
+.light-bottom-padding{
+	padding-bottom: 10px;
 }
 
 .homepage-content .title{
@@ -46,6 +61,3 @@
 	font-size: 6em;
 	font-weight: 300;
 }
-
-
-
