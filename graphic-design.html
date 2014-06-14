@@ -24,10 +24,11 @@
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
 
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     <body>
-        <div class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar navbar-default navbar-fixed-top" id="topnav">
             
             <div class="container">
                 <a href="index.html" class="navbar-brand">PRATIMA MANI</br><span class="subbrand visible-xs">GRAPHIC DESIGN</span></a>      
@@ -42,9 +43,9 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav" id="top-nav">
                         <li class="active"><a href="#">GRAPHIC DESIGN</a></li>
-                        <li><a href="ILL.html">ILLUSTRATION</a></li>
-                        <li><a href="DATA.html">DATA-VIZ</a></li>
-                        <li><a href="Resume.html">RESUME</a></li>
+                        <li><a href="illustration.html">ILLUSTRATION</a></li>
+                        <li><a href="data-viz.html">DATA-VIZ</a></li>
+                        <li><a href="resume.html">RESUME</a></li>
                         <!--<li><a href="Blog.html">BLOG</a></li>-->
                     </ul>
                 </div>
@@ -495,5 +496,38 @@
             </div> 
         </div>      
     </div>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/lemmon-slider.js"></script>
+    <script src="js/vendor/jquery.scrollTo.js"></script>
+    <script src="js/vendor/jquery.nav.js"></script>
+    
+    <script type="text/javascript">
+            $('#emperor-nav').onePageNav({
+            currentClass: 'active',
+            changeHash: true,
+            scrollSpeed: 1200
+            });// ]]>
+            
+            $('.nextext').onePageNav({
+            currentClass: 'active',
+            changeHash: true,
+            scrollSpeed: 1200
+            });// ]]>
+        
+            window.onload = function(){
+                $( '#slider1' ).lemmonSlider();
+                
+                $( '#slider2' ).lemmonSlider();
+                
+                $( '#slider3' ).lemmonSlider();
+                
+                $( '#slider4' ).lemmonSlider();
+                
+                $( '#slider5' ).lemmonSlider();
+                
+                $( '#slider6' ).lemmonSlider();
+            }
+         
+    </script>
     </body>
 </html>
