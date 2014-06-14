@@ -19,7 +19,9 @@
 	z-index: -1;
 }
 
-
+.lato{
+	font-family: 'Lato', sans-serif;
+}
 .no-bg{
 	background: none;
 }
@@ -34,18 +36,40 @@
 .dark-gradient{
 	background: black;
 	background: rgba(0,0,0,0.5);
+	border:none;
 }
 
-
+.dark-gradient li a{
+	color : white;
+	font-weight: 400;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
 .inverted{
-	color: white;
+	color: white !important;
+}
+.heavy-top-padding{
+	padding-top: 40px;
 }
 
+.light-bottom-padding{
+	padding-bottom: 10px;
+}
+.homepage-content{
+	margin-top:220px;
+}
 .homepage-content .title{
-	font-family: 'Lato', sans-serif;
-	font-size: 6em;
+	font-size: 8em;
 	font-weight: 300;
 }
-
-
-
+.homepage-content .subheading{
+	font-size: 2.6em;
+	line-height: 2;
+	font-weight: bold;
+}
+.homepage-content .lead-copy{
+	font-size: 2.6em;
+	font-weight: 300;
+	line-height: 1.4;
+}
